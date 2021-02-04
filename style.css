@@ -1,0 +1,59 @@
+.container {
+    width: 650px;
+    height: 770px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid cadetblue;
+}
+
+header {
+    width: 650px;
+    height: 134px;
+    display: block;
+}
+
+.foto {
+    width: 80px;
+    height: 130px;
+    float: left;
+}
+
+div.judul {
+    width: 566px;
+    height: 134px;
+    float: left;
+}
+
+.teks {
+    width: 230px;
+    height: 44px;
+    border: 2px solid burlywood;
+    border-radius: 20px;
+    margin: 43px auto;
+    line-height: 44px;
+    text-align: center;
+}
+
+.content {
+    width: 650px;
+    height: 670px;
+    margin-top: 20px;
+}
+
+td.judul {
+    height: 50px;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+}
+
+.tanda-tangan {
+    margin-right: 40px;
+    float: right;
+}
+
+.ttd-satu {
+    margin-bottom: 50px;
+}
