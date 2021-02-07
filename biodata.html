@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-biodata.css">
+    <script src="script-biodata.js" defer></script>
+</head>
+<body>
+    <h3>Biodata Diri</h3>
+    <div class="container-form">
+        <div class="form">        
+            <div class="field">
+                <label for="nama" class="label">Nama Lengkap</label>
+                <input type="text" name="nama" id="nama" class="input" required />                  
+            </div>
+            <div class="field">
+                <label for="tempat-lahir" class="label">Tempat Tanggal Lahir</label>
+                <input type="text" name="tempat-lahir" id="tempat-lahir" class="input" required />
+                <input type="date" name="tanggal-lahir" id="tanggal-lahir" class="input" required />                    
+            </div>
+            <div class="field">
+                <label for="alamat" class="label">Alamat</label>
+                <textarea name="alamat" id="alamat" class="textarea" required></textarea>                   
+            </div>
+            <div class="field">
+                <label for="jk" class="label">Jenis Kelamin</label>
+                <input type="radio" id="laki" name="gender" value="laki">
+                    <label for="laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="gender" value="perempuan">
+                    <label for="perempuan">Perempuan</label><br>
+            </div>
+            <div class="field">
+                <label for="hobby" class="label">Hobby</label>
+                    <input type="checkbox" id="hobby1" name="hobby" value="Berenang">
+                <label for="hobby1"> Berenang</label>
+                    <input type="checkbox" id="hobby2" name="hobby" value="Jogging">
+                <label for="hobby2"> Jogging</label>
+                    <input type="checkbox" id="hobby3" name="hobby" value="Bersepeda">
+                <label for="hobby3"> Bersepeda</label>
+                    <input type="checkbox" id="hobby4" name="hobby" value="Futsal">
+                <label for="hobby4"> Futsal</label>
+            </div>
+            <div class="field">
+                <label for="agama" class="label">Agama:</label>
+                <select id="agama" name="agama" class="select">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+            </div>
+            <div class="field">
+                <input type="button" name="submit" id="submit" value="Tambah" class="button" />
+                <input type="button" name="reset" id="reset" value="Ulangi" class="button" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="data">
+        <div class="search">
+            <label for="search-text" class="label">Cari :</label>
+            <select id="search-option" name="search-option" class="select">
+                <option value="Nama">Nama</option>
+                <option value="Alamat">Alamat</option>
+                <option value="Hobby">Hobby</option>
+            </select>
+            <input type="text" name="search-text" id="search-text" class="input" />
+            <input type="button" name="search-button" id="search-button" value="Cari" class="button" />
+        </div>
+        <table id="customers" border="1">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Hobby</th>
+                    <th>Agama</th>
+                    <th>Alamat</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+        <div id="page">
+                
+        </div>
+    </div>
+</body>
+</html>
